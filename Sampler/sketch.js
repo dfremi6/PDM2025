@@ -7,10 +7,10 @@ del.wet.value = 0.5;
 
 function preload() {
   samples = new Tone.Players({
-    drum: "/media/drum.mp3",
-    blast: "/media/blast.mp3",
-    bass: "/media/synthBass.mp3",
-    yeah: "/media/yeah.mp3"
+    drum: "media/drum.mp3",
+    blast: "media/blast.mp3",
+    bass: "media/synthBass.mp3",
+    yeah: "media/yeah.mp3"
   }).connect(del);
 }
 
